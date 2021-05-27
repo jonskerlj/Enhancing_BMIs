@@ -1,0 +1,6 @@
+[submodule "External_functions/Neural_Decoding"]
+	path = External_functions/Neural_Decoding
+	url = https://github.com/KordingLab/Neural_Decoding.git
+[submodule "External_functions/PyalData"]
+	path = External_functions/PyalData
+	url = https://github.com/mattperich/PyalData.git
