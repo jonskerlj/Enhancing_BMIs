@@ -1,5 +1,5 @@
-,LSTM
+,LSTM,
 R^2 values,Position,Velocity
-M1,0.0,0.0
-PMd,0.0,0.0
-M1 & PMd,0.0,0.0
+M1,0.94737525,0.94950367
+PMd,,
+M1 & PMd,0.97339713,0.95738033
