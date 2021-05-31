@@ -10,4 +10,5 @@ Brain-Machine Interface (BMI) code for the Final Year Master's Project at Imperi
 
 #### External libraries:
 Preprocessing of neural data is done with **PyalData library**. For more information visit: https://github.com/mattperich/PyalData.
+
 Building and testing different decoders is done in **Neural Decoding library** environment. Additional details can be found: https://github.com/kordinglab/neural_decoding.
