@@ -18,9 +18,9 @@ end
 td(idx) = [];
 
 %% Split train and test data
-M =500;
+M =740;
 td_train = td(1:M);
-td_test = td(M+1:end);
+%td_test = td(M+1:end);
 
 %%
 y = [];
@@ -69,7 +69,9 @@ for i = 1: size(M1_spikes,2)
     F_test_PMd = [F_test_PMd;f_test_PMd];
    
 end
- 
+%%
+F_test_M1_PMd = [F_test_M1,F_test_PMd];
+
 %% Features vectors
 F_final = [[F_test_M1,F_test_PMd,y];[F_M1, F_PMd, y]];
 F_final_PMd = [[F_test_PMd,y];[F_PMd, y]];
